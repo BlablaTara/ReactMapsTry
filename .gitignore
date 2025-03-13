@@ -32,5 +32,9 @@ yarn-error.*
 # local env files
 .env*.local
 
+# indeholder firebase api. Hvis andre skal hive programmet ned, skal de have en kopi app.json, uden api'et.
+app.json 
+
+
 # typescript
 *.tsbuildinfo
